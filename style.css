@@ -48,6 +48,36 @@
     font-weight: 800;
 }
 
+[data-theme="light"] .form-control {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+    font-weight: 600;
+}
+
+[data-theme="light"] .form-control option {
+    background: #ffffff !important;
+    color: #0f172a !important;
+}
+
+[data-theme="light"] .form-group label {
+    color: #0f172a !important;
+    font-weight: 700;
+}
+
+[data-theme="light"] .calc-tab {
+    color: #475569 !important;
+}
+
+[data-theme="light"] .calc-tab.active {
+    color: #ffffff !important;
+    background: var(--primary-orange) !important;
+}
+
+[data-theme="light"] .calc-tabs {
+    background: #e2e8f0 !important;
+}
+
 [data-theme="light"] .footer .footer-title {
     color: #ffffff !important;
 }
