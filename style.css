@@ -200,12 +200,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-light {
-    background: #ffffff;
-    color: var(--dark-bg);
+    background: #ffffff !important;
+    color: #0d0f12 !important;
+    font-weight: 800;
 }
 
 .btn-light:hover {
-    background: #f0f0f0;
+    background: #f0f0f0 !important;
+    color: #0d0f12 !important;
     transform: translateY(-2px);
 }
 
